@@ -156,7 +156,7 @@
     list-style: none;
 }
 .small-conteneur-flex li::before {
-    content: url(/images/check-liste.png);
+    content: url(images/check-liste.png);
 }
 .flex-button {
     text-align: center;
@@ -187,7 +187,7 @@
     list-style: none;
 }
 .small-conteneur-flex1 li::before {
-    content: url(/images/check-liste.png);
+    content: url(images/check-liste.png);
 }
 .flex-button1 {
     text-align: center;
