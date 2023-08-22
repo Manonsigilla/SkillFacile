@@ -4,7 +4,7 @@ Recomposition du site skillfacile.com
 
 view on  [SkillFacile](https://manonsigilla.github.io/SkillFacile/ "SkillFacile")
 
-<h2 align="left">Hi 👋! My name is ... and I'm a ..., from ....</h2>
+<h2 align="left">Hi 👋! My name is Manon and I'm a student developer, from France</h2>
 
 ###
 
