@@ -1,5 +1,6 @@
 @import url('bases/bases.css');
+@import url('modules/modules.css');
 @import url('layouts/footer.css');
 @import url('layouts/header.css');
 @import url('layouts/main.css');
-@import url('modules/modules.css');
+@import url('pages/accomp-perso.css');

@@ -1,0 +1,99 @@
+/* FIRST SECTION */
+
+#accomp-perso-first-section {
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto 50%;
+    align-items: center;
+    padding: 80px;
+}
+#accomp-perso-first-section img {
+    box-shadow: 10px 8px 15px 0px #363450;
+    border-radius: 30px;
+}
+
+/* SECOND SECTION */
+
+#accomp-perso-scd-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: end;
+}
+.article-snd-section-bg-image {
+    background-image: url(/images/Accompagnement-small-groupe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.accomp-perso-scd-section article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px;
+}
+.accomp-perso-scd-section h3 {
+    font-size: 38px;
+}
+.accomp-perso-scd-section article p:nth-child(4) {
+    margin-bottom: 50px;
+}
+
+/* THIRD SECTION */
+
+#accomp-perso-third-section {
+    max-width: 1440px;
+    margin: 80px auto;
+
+}
+.accomp-perso-third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+}
+.accomp-perso-third-section-intro {
+    text-align: center;
+    max-width: 625px;
+    margin: auto;
+}
+.accomp-perso-third-section-intro h3 {
+    font-size: 38px;
+    padding: 0;
+    color: #423B73;
+    line-height: 1;
+}
+.accomp-perso-third-section-intro p {
+    color: #423B73;
+    margin-top: 25px;
+}
+.infos-generales-accompagnement {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.infos-generales-accompagnement-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 12px;
+    padding: 50px 30px;
+}
+.infos-generales-accompagnement-items h4 {
+    font-family: 'Oswald';
+    font-size: 25px;
+    font-weight: 700;
+}
+.box-color-perso {
+    background-color: #e34e67;
+}
+.box-color-qui {
+    background-color: #423b73;
+}
+.box-color-prerequis {
+    background-color: #1e1d31;
+}
