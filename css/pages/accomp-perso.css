@@ -7,6 +7,7 @@
     grid-template-columns: auto 50%;
     align-items: center;
     padding: 80px;
+    justify-content: space-around;
 }
 #accomp-perso-first-section img {
     box-shadow: 10px 8px 15px 0px #363450;
@@ -96,4 +97,138 @@
 }
 .box-color-prerequis {
     background-color: #1e1d31;
+}
+
+/************* FOURTH SECTION *************************/
+
+#accomp-perso-fourth-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: end;
+}
+.article-fourth-section-bg-image {
+    background-image: url(/images/Accompagnement-small-groupe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.accomp-perso-fourth-section article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px;
+}
+.accomp-perso-fourth-section h3 {
+    font-size: 38px;
+    color: #423B73;
+    font-weight: 700;
+    line-height: 1;
+}
+.accomp-perso-fourth-section p {
+    font-family: 'Oswald';
+    color: #423B73;
+}
+.accomp-perso-fourth-section article p:nth-child(4) {
+    margin-bottom: 50px;
+}
+.accomp-perso-fourth-section button {
+    width: fit-content;
+}
+
+/************************ FIFTH SECTION ******************/
+
+#accomp-perso-fifth-section {
+    max-width: 1440px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+#accomp-perso-fifth-section img {
+    max-width: 100%;
+}
+.accomp-perso-fifth-section {
+    background-color: #363450;
+    border-radius: 24px;
+}
+.accomp-perso-fifth-section article {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+}
+.accomp-perso-fifth-section-title-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    /* max-width: 500px; */
+}
+.accomp-perso-fifth-section-title-article h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.accomp-perso-fifth-section-content-article {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.accomp-perso-fifth-section-content-article ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.accomp-perso-fifth-section-content-article ul li::before {
+    content: url(/images/check-liste.png);
+    margin-right: 10px;
+}
+.accomp-perso-fifth-section-content-article ul li {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+/********************** SIXTH SECTION *****************/
+
+#accomp-perso-sixth-section {
+    max-width: 1440px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    width: 100%;
+}
+thead td {
+    text-align: center;
+    color: #423b73;
+    font-weight: 600;
+}
+th, td {
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+}
+.accomp-perso-sixth-section-title-grille h3 {
+    font-family: 'Oswald';
+    font-size: 38px;
+    color: #423B73;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.accomp-perso-sixth-section-title-grille p {
+    color: #423B73;
 }
